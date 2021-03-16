@@ -1,0 +1,51 @@
+/* - Mobile: 375px
+- Desktop: 1440px */
+@media(max-width: 375px) {
+    .grid,
+    .files .grid,
+    .access-area .grid,
+    .stay .grid,
+    .threecolomn .grid,
+    .features-main .grid,
+    .docs-main .grid {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 1fr;
+    }
+    .access2 {
+        padding-left: 0;
+    }
+
+    .navbar {
+        height: 50px;
+        
+    }
+
+    .navbar ul {
+        padding: 5px;
+        display: flex;
+        /* background-color: rgba(0, 0, 0, 0.1); */
+    }
+
+    .navbar a {
+        padding: 8px;
+        margin: 0 3px;
+        color: #fff;
+        font-size: 13px;
+    }
+    img {
+        width: 15%;
+    }
+
+    .navcontainer {
+        padding: 0 20px;
+    }
+
+    .btn {
+        padding: 5px 20px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    /* .m-2, .m-3{
+        font-weight: 400;
+    } */
+}
